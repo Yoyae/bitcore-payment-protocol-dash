@@ -1,24 +1,24 @@
-Bitcore-Dash Payment Protocol
+Bitcore-Monoeci Payment Protocol
 =======
 
-[![NPM Package](https://img.shields.io/npm/v/bitcore-payment-protocol-dash.svg?style=flat-square)](https://www.npmjs.org/package/bitcore-payment-protocol-dash)
-[![Build Status](https://img.shields.io/travis/dashpay/bitcore-payment-protocol-dash.svg?branch=master&style=flat-square)](https://travis-ci.org/dashpay/bitcore-payment-protocol-dash)
-[![Coverage Status](https://img.shields.io/coveralls/dashpay/bitcore-payment-protocol-dash.svg?style=flat-square)](https://coveralls.io/r/dashpay/bitcore-payment-protocol-dash)
+[![NPM Package](https://img.shields.io/npm/v/bitcore-payment-protocol-monoeci.svg?style=flat-square)](https://www.npmjs.org/package/bitcore-payment-protocol-monoeci)
+[![Build Status](https://img.shields.io/travis/yoyae/bitcore-payment-protocol-monoeci.svg?branch=master&style=flat-square)](https://travis-ci.org/yoyae/bitcore-payment-protocol-monoeci)
+[![Coverage Status](https://img.shields.io/coveralls/yoyae/bitcore-payment-protocol-monoeci.svg?style=flat-square)](https://coveralls.io/r/yoyae/bitcore-payment-protocol-monoeci)
 
-A module for [bitcore-dash](https://github.com/dashpay/bitcore-dash) that implements [Payment Protocol](https://github.com/bitcoin/bips/blob/master/bip-0070.mediawiki) and other related BIPs.
+A module for [bitcore-monoeci](https://github.com/yoyae/bitcore-monoeci) that implements [Payment Protocol](https://github.com/bitcoin/bips/blob/master/bip-0070.mediawiki) and other related BIPs.
 
 ## Getting Started
 
 This library is distributed in both the npm and bower packaging systems.
 
 ```sh
-npm install bitcore-lib-dash
-npm install bitcore-payment-protocol-dash
+npm install bitcore-lib-monoeci
+npm install bitcore-payment-protocol-monoeci
 ```
 
 ```sh
-bower install bitcore-lib-dash
-bower install bitcore-payment-protocol-dash
+bower install bitcore-lib-monoeci
+bower install bitcore-payment-protocol-monoeci
 ```
 
 There are many examples of how to use it on the developer guide [section for payment protocol](https://bitcore.io/api/paypro). For example, the following code would verify a payment request:
@@ -41,7 +41,7 @@ var verified = request.verify();
 
 ## Contributing
 
-See [CONTRIBUTING.md](https://github.com/dsahpay/bitcore-dash/blob/master/CONTRIBUTING.md) on the main bitcore-dash repo for information about how to contribute.
+See [CONTRIBUTING.md](https://github.com/dsahpay/bitcore-monoeci/blob/master/CONTRIBUTING.md) on the main bitcore-monoeci repo for information about how to contribute.
 
 ## License
 

@@ -44,12 +44,12 @@
   "browser": "lib/browser.js",
   "dependencies": {
     "asn1.js": "=4.5.2",
-    "bitcore-lib-monoeci": "^0.14.0",
+    "bitcore-lib-monoeci": "yoyae/bitcore-lib-monoeci",
     "jsrsasign": "=5.0.10",
     "protobufjs": "=5.0.1"
   },
   "devDependencies": {
-    "bitcore-build-monoeci": "git://github.com/yoyae/bitcore-build-monoeci.git#0125d7646a40fcb6c1e904ca48a4f24f2dab4320",
+    "bitcore-build-monoeci": "yoyae/bitcore-build-monoeci",
     "brfs": "^1.2.0",
     "chai": "~1.10.0",
     "gulp": "^3.8.10",
